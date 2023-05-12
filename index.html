@@ -18,26 +18,51 @@
 </head>
 <body>
   <header class="p-3 header">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-         <img src="img/bob-logo-white.png" alt="" height="40" class="me-lg-3">
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-        </ul>
-
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/bob-logo-black.png" alt="buy-or-barter-green-logo" height="40" class="me-lg-3"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blogs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blogs 1</a></li>
+                <li><a class="dropdown-item" href="#">Blogs 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Blogs 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="text-lg-end text-md-center text-sm-center">
+            <button type="button" class="btn btn-outline-dark me-2">Login</button>
+            <button type="button" class="btn btn-dark">Sign-up Now</button>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
+    <!-- --------------------------- -->
   </header>
     <main class="main">
         <section class="hero">
@@ -46,8 +71,8 @@
                 <div class="col-lg-6 mx-auto">
                   <p class="lead mb-4">Buy, sell, or swap - it's up to you. Buy or Barter is a where users can either buy items or trade them with others. It's a safe and secure platform for transactions, promoting a community of people passionate about sustainability and reducing waste.</p>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Browse Items</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign Up Now</button>
+                    <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Browse Items</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign-up Now</button>
                   </div>
                 </div>
               </div>
