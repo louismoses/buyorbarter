@@ -23,3 +23,8 @@ body{
 .header{
     background-color: var(--color-gray);
 }
+@media (min-width:992px) {
+    .container.search-bar {
+        max-width: 600px;
+    }
+}
