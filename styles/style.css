@@ -7,4 +7,25 @@ section.coming-soon {
 }
 h2 {
     font-size: 5rem;
+    color: var(--color-primary-dark);
+}
+/* ++++++++++++++++++++++++ */
+:root{
+    --color-primary:#CBF277;
+    --color-primary-dark :#35401E;
+    --color-primary-light:#A0BF5E;
+
+    --color-gray:#D9D9D9;
+
+    --color-black:#0D0D0D;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    font-family: 'Lato', sans-serif;
 }
