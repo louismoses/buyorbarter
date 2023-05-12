@@ -1,0 +1,10 @@
+section.coming-soon {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 5rem;
+}
