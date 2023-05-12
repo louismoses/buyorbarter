@@ -1,14 +1,3 @@
-section.coming-soon {
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    place-content: center;
-    align-items: center;
-}
-h2 {
-    font-size: 5rem;
-    color: var(--color-primary-dark);
-}
 /* ++++++++++++++++++++++++ */
 :root{
     --color-primary:#CBF277;
@@ -28,4 +17,9 @@ h1, h2, h3, h4, h5, h6{
 }
 body{
     font-family: 'Lato', sans-serif;
+}
+/* ++++++++++++++++++++++++++ */
+
+.header{
+    background-color: var(--color-primary-light);
 }
