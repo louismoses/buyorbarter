@@ -33,9 +33,42 @@ body{
     }
 }
 
+/* carousel */
+.carousel-box{
+    padding-bottom: 3rem;
+}
+.carousel-indicators{
+    bottom: -3rem;
+}
+.card {
+    width: calc(100%/3);
+}
+@media (max-width:767px) {
+    .card {
+        width: calc(100%/2);
+    }
+}
+.card-wrapper__box-1{
+    background-color: red;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 .footer{
     background-color: var(--color-gray);
 }
 .footer .border-top {
     border-top-color: var(--color-primary-dark)!important;
+}
+
+.categories{
+    padding: 10vh 0;
+}
+
+/* ======== PAGE ========== */
+.featured-items {
+    background: var(--color-gray);
+    padding: 10vh 0;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
