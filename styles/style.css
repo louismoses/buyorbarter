@@ -1,4 +1,5 @@
 /* ++++++++++++++++++++++++ */
+/* ------ base ------------ */
 :root{
     --color-primary:#CBF277;
     --color-primary-dark :#35401E;
@@ -23,8 +24,18 @@ body{
 .header{
     background-color: var(--color-gray);
 }
+
+/* -------components ------- */
+/* search bar */
 @media (min-width:992px) {
     .container.search-bar {
         max-width: 600px;
     }
+}
+
+.footer{
+    background-color: var(--color-gray);
+}
+.footer .border-top {
+    border-top-color: var(--color-primary-dark)!important;
 }
