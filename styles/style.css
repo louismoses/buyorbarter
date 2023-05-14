@@ -51,8 +51,21 @@ body{
 .card-wrapper__box-1{
     background-color: red;
 }
+.card-image-box{
+    
+}
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
+}
+
+.categories-box {
+    margin: 1rem;
+}
+.categories-box:nth-child(odd){
+    margin-left: -10vw;
+}
+.categories-box:nth-child(even){
+    margin-left: -15vw;
 }
 
 .footer{
