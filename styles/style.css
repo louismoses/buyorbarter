@@ -62,10 +62,10 @@ body{
     margin: 1rem;
 }
 .categories-box:nth-child(odd){
-    margin-left: -10vw;
+    margin-left: -4rem;
 }
 .categories-box:nth-child(even){
-    margin-left: -15vw;
+    margin-left: -8rem;
 }
 
 .footer{
