@@ -1,127 +1,150 @@
 /* ++++++++++++++++++++++++ */
 /* ------ base ------------ */
-:root{
-    --color-primary:#CBF277;
-    --color-primary-dark :#35401E;
-    --color-primary-light:#A0BF5E;
+:root {
+  --color-primary: #cbf277;
+  --color-primary-dark: #35401e;
+  --color-primary-light: #a0bf5e;
 
-    --color-gray:#D9D9D9;
+  --color-gray: #d9d9d9;
 
-    --color-black:#0D0D0D;
+  --color-black: #0d0d0d;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
 }
-body{
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
 /* ++++++++++++++++++++++++++ */
 
-.header{
-    background-color: var(--color-gray);
+.header {
+  background-color: var(--color-gray);
 }
 
 /* -------components ------- */
 /* search bar */
-@media (min-width:992px) {
-    .container.search-bar {
-        max-width: 600px;
-    }
+@media (min-width: 992px) {
+  .container.search-bar {
+    max-width: 600px;
+  }
 }
 
 /* carousel */
-.carousel-box{
-    padding-bottom: 3rem;
+.carousel-box {
+  padding-bottom: 3rem;
 }
-.carousel-indicators{
-    bottom: -3rem;
-}
-
-
-@media (max-width:767px) {
-    .featured-items .card:not(:last-child){
-        display: none;
-    }
-}
-.card a {
-    color: inherit;
-    text-decoration: none;
+.featured-items .carousel-indicators {
+  bottom: -3rem;
 }
 
-
-.carousel-control-next, .carousel-control-prev {
-    width: 5%;
+@media (max-width: 767px) {
+  .featured-items .card:not(:last-child) {
+    display: none;
+  }
+}
+.featured-items .card a {
+  color: inherit;
+  text-decoration: none;
+}
+.featured-items {
+  background: var(--color-gray);
+  padding: 10vh 0;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
 
 .categories-box {
-    place-content: center;
+  place-content: center;
 }
-.categories{
-    padding: 0 0 10vh;
-}
-
-
-@media (max-width:1440px) {
-    .categories-box a:not(:nth-child(-n+30)) {
-        display: none;
-    }
-}
-@media (max-width:768px) {
-    .categories-box a:not(:nth-child(-n+20)) {
-        display: none;
-    }
-}
-@media (max-width:425px) {
-    .categories-box a:not(:nth-child(-n+10)) {
-        display: none;
-    }
+.categories {
+  padding: 0 0 10vh;
 }
 
+@media (max-width: 1440px) {
+  .categories-box a:not(:nth-child(-n + 30)) {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .categories-box a:not(:nth-child(-n + 20)) {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .categories-box a:not(:nth-child(-n + 10)) {
+    display: none;
+  }
+}
 
 .how-it-works {
-    padding: 5vh 0;
+  padding: 5vh 0;
 }
-.how-it-works .card{
-    padding: 2rem;
+.how-it-works .card {
+  padding: 2rem;
 }
-.how-it-works .card-body{
-    position: relative;
-    padding-bottom: 2rem;
+.how-it-works .card-body {
+  position: relative;
+  padding-bottom: 2rem;
 }
-.how-it-works .card-body a{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-top: 1rem;
+.how-it-works .card-body a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 1rem;
 }
-.how-to__image-box{
-    display: block;
-    margin: auto;
-    text-align: center;
+.how-to__image-box {
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 .how-to__number {
-    color: var(--color-primary-light);
+  color: var(--color-primary-light);
 }
 
+.popular-items,
+.suggested-items {
+  padding-top: 2rem;
+}
+@media (max-width: 575px) {
+  .popular-items .row,
+  .suggested-items .row {
+    gap: 1rem;
+  }
+}
+.other-items {
+  padding-bottom: 2rem;
+}
+.other-items__container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  place-content: center;
+}
+.other-items__box {
+  max-width: 240px;
+}
 
-
-.footer{
-    background-color: var(--color-gray);
+.footer {
+  background-color: var(--color-gray);
 }
 .footer .border-top {
-    border-top-color: var(--color-primary-dark)!important;
+  border-top-color: var(--color-primary-dark) !important;
 }
-
-
+.footer a {
+  color: inherit;
+}
 
 /* ======== PAGE ========== */
-.featured-items {
-    background: var(--color-gray);
-    padding: 10vh 0;
-    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-}
