@@ -40,6 +40,8 @@ body{
 .carousel-indicators{
     bottom: -3rem;
 }
+
+
 .card {
     width: calc(100%/3);
 }
@@ -47,6 +49,10 @@ body{
     .card {
         width: calc(100%/2);
     }
+}
+.card a {
+    color: inherit;
+    text-decoration: none;
 }
 .card-wrapper__box-1{
     background-color: red;
@@ -58,15 +64,18 @@ body{
     width: 5%;
 }
 
+
 .categories-box {
     margin: 1rem;
+    place-content: center;
 }
 .categories-box:nth-child(odd){
-    margin-left: -4rem;
+    margin-left: ;
 }
 .categories-box:nth-child(even){
-    margin-left: -8rem;
+    margin-left: ;
 }
+
 
 .footer{
     background-color: var(--color-gray);
