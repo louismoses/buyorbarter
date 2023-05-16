@@ -119,12 +119,14 @@ a {
 }
 
 .popular-items,
-.suggested-items {
+.suggested-items,
+.other-items {
   padding-top: 2rem;
 }
 @media (max-width: 575px) {
   .popular-items .row,
-  .suggested-items .row {
+  .suggested-items .row,
+  .other-items .row {
     gap: 1rem;
   }
 }
