@@ -159,4 +159,8 @@ a:hover {
   color: var(--color-primary-light);
 }
 
+.product-hero .list-group-item {
+  border-radius: 0 !important;
+}
+
 /* ======== PAGE ========== */
